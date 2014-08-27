@@ -43,6 +43,7 @@ class Averager implements IntConsumer
     }
 
     public void accept(int i) { total += i; count++; }
+
     public void combine(Averager other) {
         total += other.total;
         count += other.count;
