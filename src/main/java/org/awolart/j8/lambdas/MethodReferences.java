@@ -34,15 +34,15 @@
 
 package org.awolart.j8.lambdas;
 
+import org.awolart.j8.models.Person;
+
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Collection;
 import java.util.function.Supplier;
 import java.util.Set;
 import java.util.HashSet;
-import java.time.chrono.IsoChronology;
 
 public class MethodReferences {
 

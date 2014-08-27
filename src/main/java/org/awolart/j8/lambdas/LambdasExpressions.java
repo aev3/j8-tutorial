@@ -33,14 +33,13 @@ package org.awolart.j8.lambdas;
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+import org.awolart.j8.models.Person;
+
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.Comparator;
 import java.util.function.Predicate;
 import java.lang.Iterable;
-import java.time.chrono.IsoChronology;
-
 
 
 public class LambdasExpressions {
